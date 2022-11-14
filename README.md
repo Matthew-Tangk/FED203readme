@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://professor-e.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  hoofdpagina
   <img src="readme-images/professorE_main_page.png" width="375px" alt="de top van de homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  hoofdpagina
   <img src="readme-images/professorE_outerwear_page.png" width="375px" alt="een categoriepagina">
  
 </details>
