@@ -1,11 +1,19 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	
 }
 
-button, summary {
+*{
+	padding: 0;
+	margin: 0;
+}
+button,
+summary {
 	cursor: pointer;
 }
 
@@ -18,13 +26,9 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
@@ -32,3 +36,143 @@ button, summary {
 
 /* jouw code */
 
+/****************/
+/*NAV BAR*/
+/****************/
+
+header{
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+
+nav{
+	padding:1em;
+	gap:1em;
+	background-color:black;opacity:0.6;
+	position:fixed;
+	
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+
+	transform:translatex(-100%);
+}
+
+nav ul {
+	list-style: none;
+	
+	padding: 0em 3em;
+	
+	
+}
+
+nav ul li img{
+	width: 2em;
+	color: whitesmoke;
+}
+
+nav ul li{
+	margin-top: 50px;
+}
+
+nav ul li a:first-of-type{
+	margin-top:50px;
+}
+
+nav ul li a{
+	display:flex;
+	justify-content: center;
+  	align-items:center;
+	text-decoration: none;
+	color: whitesmoke;
+	
+}
+
+nav button{
+	background: none;
+	border: none;
+}
+
+
+nav img:nth-of-type(2){
+	height: 25zpx;
+	
+}
+
+
+
+/****************/
+/* "CAROUSEL" */
+/****************/
+section:first-of-type {
+	display: flex;
+	overflow-x: auto;
+	height: 50em;
+}
+
+section:first-of-type img {
+	width: auto;
+	height: auto;
+}
+
+/****************/
+/* MAIN EN GRID*/
+/****************/
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Lora', serif;
+}
+
+main h1 {
+	font-family: 'Lora', serif;
+	font-size: small;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+	padding: 5em;
+}
+
+main a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+	padding: 3em 0 6em 0;
+	font-size: small;
+
+}
+
+main img {
+	width: 30em;
+	height: 40em;
+}
+
+main section:nth-of-type(2) {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+
+}
+
+footer {
+	text-align: center;
+
+}
+
+footer a{
+	display: block;
+	padding: 1rem 0;
+	font-size: small;
+	text-decoration: none;
+	color: black;
+}
