@@ -50,7 +50,7 @@ header{
 	padding: 40px 20px;
 }
 
-header > img{
+[src="./images/prof_e_logo_nobg.svg"]{
 	/* direct child selector */
 	width: 120px;
 	
@@ -214,8 +214,6 @@ section{
 		width: 35em;
     	height: 45em;
 	}
-
-
 }
 
 /**********************************************/
@@ -239,6 +237,8 @@ section{
 /* MAIN */
 /****************/
 
+
+
 .pagina2 h1{
 	display: flex;
 	justify-content: flex-start;
@@ -246,6 +246,7 @@ section{
 	font-family: 'Lora', serif; 
 	font-size: large;
 	font-weight: lighter;
+	
 	
 }
 
@@ -261,12 +262,11 @@ section{
 }
 
 .pagina2 section:nth-of-type(2){ 
-	padding: 1em 0 0 30em;
+	padding: 1em;
 	display: flex;
-	float: right;
 	grid-gap:.5em;
-	width: 50%;
-	flex-wrap: wrap;
+	width: 100%;
+	
 	
 }
 
@@ -284,7 +284,6 @@ section{
 
 }
   
-
 .pagina2 section:nth-of-type(2) img{ 
 	
 	height: 4.5em;
@@ -298,9 +297,10 @@ section{
 
 select{
 	display: flex;
-	margin: auto;
+	justify-content: flex-start;
 	margin-top: 2em;
-	padding: 1em 80% 1em 0;
+	margin-left: 2em;
+	padding: 1em 60% 1em 0;
 	font-family: 'Lora', serif; 
 	font-size: .7em;
 	font-weight: lighter;
@@ -310,57 +310,80 @@ select{
 }
 
 
-  
 
 /****************/
 /* ADD TO CART */
 /****************/
 
-	.pagina2 main button{
-		display: flex;
-		margin: auto;
-		margin-top: 2em;
-		padding: .5em 8em;
 
-		font-family: 'Lora', serif;
-		font-weight: lighter;
-		color: black;
 
-		border: 1px black;
-		transition-duration: 0.4s;
 
-	}
 
-	.pagina2 main button:hover{
-		background-color: black;
-		color: whitesmoke;
+.pagina2 main button{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+	margin-top: 2em;
+	margin-right: 2em;
+	padding: .5em 8em;
+
+	width: 30%;
+	height: 30%;
+
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+	color: black;
+
+	border: 1px black;
+	
+
+}
+
+.pagina2 main button:hover{
+	background-color: black;
+	color: whitesmoke;
 		
+}
+
+
+#inline{
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width:550px){
+	#inline{
+		display: grid;
+		grid-template-columns: 1fr;
 	}
+
+	#inline > button{
+		margin: auto;
+		font-size: small;
+		width: 60%;
+		height: 100%;
+	}
+
+	#inline select{
+		padding: 1em 3em 1em 0;
+		margin: 0 2em;
+	}
+	
+}
+
+	
+	  
 
 /****************/
 /* SUGGESTIONS */
 /****************/
 
-	.pagina2 section:nth-of-type(3){
-		grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
-		
-	}
-
-	.pagina2 section:nth-of-type(3) p{
-		display: flex;
-		justify-content: center;
-		font-size: small;
-		text-align: center;
-
-		color: black;
-		text-decoration: none;
-		
-	}
 
 	.pagina2 a p{
 		margin-top: 1em;
 		margin-bottom: .5em;
-	
+		justify-content: center;
 	}
 
 	.pagina2 p:nth-of-type(2){
@@ -370,10 +393,6 @@ select{
 	.pagina2 p:nth-of-type(2n+1):not(:nth-of-type(4)):not(:nth-of-type(6)){
 		margin-bottom: 3em;
 	}
-
-
-
-
 
 /****************/
 /* FOOTER */
