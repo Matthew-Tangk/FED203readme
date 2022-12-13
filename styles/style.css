@@ -47,6 +47,27 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	list-style: none;
+	padding: 40px 20px;
+}
+
+header > img{
+	/* direct child selector */
+	width: 120px;
+	
+}
+
+	
+
+
+/* attribute selector */
+[src="./images/basket.svg"]{
+	width: 40px;
+	
+}
+
+header button{
+	background: none;
+	border: none;
 }
 
 nav{
@@ -54,14 +75,21 @@ nav{
 	gap:1em;
 	background-color:black;opacity:0.6;
 	position:fixed;
-	
+
 	left:0;
 	right:0;
 	top:0;
 	bottom:0;
 
-	transform:translatex(-100%);
+	transform:translatex(-100%);   
+	transition:transform .3s;
 }
+
+nav.toonMenu{
+	transform:translatex(0); 
+}
+
+
 
 nav ul {
 	list-style: none;
@@ -71,13 +99,14 @@ nav ul {
 	
 }
 
-nav ul li img{
-	width: 2em;
+nav li img{
+	
+	width: 1.5em;
 	color: whitesmoke;
 }
 
 nav ul li{
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 nav ul li a:first-of-type{
@@ -96,11 +125,15 @@ nav ul li a{
 nav button{
 	background: none;
 	border: none;
+	
 }
 
 
+
+
 nav img:nth-of-type(2){
-	height: 25zpx;
+	height: 25px;
+	
 	
 }
 
@@ -113,6 +146,7 @@ section:first-of-type {
 	display: flex;
 	overflow-x: auto;
 	height: 50em;
+	grid-gap: 0;
 }
 
 section:first-of-type img {
@@ -125,9 +159,7 @@ section:first-of-type img {
 /****************/
 
 main {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+	
 	font-family: 'Lora', serif;
 }
 
@@ -142,27 +174,210 @@ main h1 {
 }
 
 main a {
-	display: flex;
-	justify-content: center;
+	
 	text-decoration: none;
 	color: black;
-	padding: 3em 0 6em 0;
+	padding: 3em ;
 	font-size: small;
+	text-align: center;
+
+}
+
+main a p{
+	
+	margin-top: 1em;
 
 }
 
 main img {
-	width: 30em;
-	height: 40em;
+	width: 22em;
+	height: 30em;
 }
 
-main section:nth-of-type(2) {
+
+section{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	row-gap: 2em;
+	grid-gap: 1em;
+	width: 100%;
+	
+}
+
+@media only screen and (max-width:550px){
+	section{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	main img{
+		width: 35em;
+    	height: 45em;
+	}
+
+
+}
+
+/**********************************************/
+
+/****************/
+/* PAGINA 2 */
+/****************/
+
+/****************/
+/* "FOTOCAROUSEL"*/
+/****************/
+
+.pagina2 section:nth-of-type(1):not(:nth-last-child(-n+2)){ 
 	display: flex;
-	justify-content: center;
+	overflow-x: auto;
+	height: 35em;
+	grid-gap: 0;
+}
+
+/****************/
+/* MAIN */
+/****************/
+
+.pagina2 h1{
+	display: flex;
+	justify-content: flex-start;
+	padding: 1em 2em 0 2em;
+	font-family: 'Lora', serif; 
+	font-size: large;
+	font-weight: lighter;
+	
+}
+
+.pagina2 p{
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 3em;
+	font-family: 'Lora', serif; 
+	font-size: small;
+	font-weight: lighter;
+	color: gray;
+	
+}
+
+.pagina2 section:nth-of-type(2){ 
+	padding: 1em 0 0 30em;
+	display: flex;
+	float: right;
+	grid-gap:.5em;
+	width: 50%;
 	flex-wrap: wrap;
 	
+}
+
+@media only screen and (max-width:550px){
+	.pagina2 section:nth-of-type(2){ 
+		padding: 2em 0 0 2em;
+		display: flex;
+		float: none;
+		height: auto;
+		grid-gap:.5em;
+		width: 50%;
+		flex-wrap: nowrap;
+	}
+
 
 }
+  
+
+.pagina2 section:nth-of-type(2) img{ 
+	
+	height: 4.5em;
+	width: 3.5em;
+	
+}
+
+/****************/
+/* MAAT FORMULIER */
+/****************/
+
+select{
+	display: flex;
+	margin: auto;
+	margin-top: 2em;
+	padding: 1em 80% 1em 0;
+	font-family: 'Lora', serif; 
+	font-size: .7em;
+	font-weight: lighter;
+	color: rgb(131, 131, 131);
+	border-color: rgb(118, 118, 118) rgb(133, 133, 133);
+
+}
+
+
+  
+
+/****************/
+/* ADD TO CART */
+/****************/
+
+	.pagina2 main button{
+		display: flex;
+		margin: auto;
+		margin-top: 2em;
+		padding: .5em 8em;
+
+		font-family: 'Lora', serif;
+		font-weight: lighter;
+		color: black;
+
+		border: 1px black;
+		transition-duration: 0.4s;
+
+	}
+
+	.pagina2 main button:hover{
+		background-color: black;
+		color: whitesmoke;
+		
+	}
+
+/****************/
+/* SUGGESTIONS */
+/****************/
+
+	.pagina2 section:nth-of-type(3){
+		grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+		
+	}
+
+	.pagina2 section:nth-of-type(3) p{
+		display: flex;
+		justify-content: center;
+		font-size: small;
+		text-align: center;
+
+		color: black;
+		text-decoration: none;
+		
+	}
+
+	.pagina2 a p{
+		margin-top: 1em;
+		margin-bottom: .5em;
+	
+	}
+
+	.pagina2 p:nth-of-type(2){
+		margin-top: 2em;
+	}
+
+	.pagina2 p:nth-of-type(2n+1):not(:nth-of-type(4)):not(:nth-of-type(6)){
+		margin-bottom: 3em;
+	}
+
+
+
+
+
+/****************/
+/* FOOTER */
+/****************/
 
 footer {
 	text-align: center;
