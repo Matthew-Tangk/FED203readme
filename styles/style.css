@@ -48,6 +48,7 @@ header{
 	justify-content: space-between;
 	list-style: none;
 	padding: 40px 20px;
+	margin: 0 auto;
 }
 
 [src="./images/prof_e_logo_nobg.svg"]{
@@ -129,11 +130,8 @@ nav button{
 }
 
 
-
-
 nav img:nth-of-type(2){
 	height: 25px;
-	
 	
 }
 
@@ -145,6 +143,8 @@ nav img:nth-of-type(2){
 section:first-of-type {
 	display: flex;
 	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-snap-align: center;
 	height: 50em;
 	grid-gap: 0;
 }
@@ -159,7 +159,6 @@ section:first-of-type img {
 /****************/
 
 main {
-	
 	font-family: 'Lora', serif;
 }
 
@@ -184,7 +183,6 @@ main a {
 }
 
 main a p{
-	
 	margin-top: 1em;
 
 }
@@ -204,15 +202,16 @@ section{
 	
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:320px){
 	section{
 		display: grid;
 		grid-template-columns: 1fr;
 	}
 
 	main img{
-		width: 35em;
-    	height: 45em;
+		width: 17em;
+    	height: 27em;
+		justify-content: center;
 	}
 }
 
@@ -226,11 +225,17 @@ section{
 /* "FOTOCAROUSEL"*/
 /****************/
 
+
+
+
 .pagina2 section:nth-of-type(1):not(:nth-last-child(-n+2)){ 
 	display: flex;
 	overflow-x: auto;
+	
 	height: 35em;
-	grid-gap: 0;
+	scroll-snap-type: x mandatory;
+	scroll-snap-align: center;
+	
 }
 
 /****************/
@@ -242,10 +247,12 @@ section{
 .pagina2 h1{
 	display: flex;
 	justify-content: flex-start;
+	margin: 0 auto;
 	padding: 1em 2em 0 2em;
 	font-family: 'Lora', serif; 
 	font-size: large;
 	font-weight: lighter;
+	text-align: center;
 	
 	
 }
@@ -270,7 +277,7 @@ section{
 	
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:320px){
 	.pagina2 section:nth-of-type(2){ 
 		padding: 2em 0 0 2em;
 		display: flex;
@@ -315,10 +322,6 @@ select{
 /* ADD TO CART */
 /****************/
 
-
-
-
-
 .pagina2 main button{
 	display: flex;
 	justify-content: center;
@@ -352,25 +355,35 @@ select{
 	justify-content: space-between;
 }
 
-@media only screen and (max-width:550px){
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
 	#inline{
-		display: grid;
-		grid-template-columns: 1fr;
+		display: block;
+		margin: auto;
 	}
 
-	#inline > button{
+	.pagina2 main button{
+		display: block;
 		margin: auto;
 		font-size: small;
-		width: 60%;
-		height: 100%;
+		width: 50%;
+		height: 2em;
+		padding: 0%;
+		margin-top: 1em;
 	}
 
 	#inline select{
-		padding: 1em 3em 1em 0;
-		margin: 0 2em;
+		padding: 1em 1em ;
+		
+		width: 80%;
+		display: block;
+		margin: auto;
 	}
 	
+	
 }
+
+
 
 	
 	  
@@ -384,6 +397,7 @@ select{
 		margin-top: 1em;
 		margin-bottom: .5em;
 		justify-content: center;
+		
 	}
 
 	.pagina2 p:nth-of-type(2){
@@ -393,6 +407,21 @@ select{
 	.pagina2 p:nth-of-type(2n+1):not(:nth-of-type(4)):not(:nth-of-type(6)){
 		margin-bottom: 3em;
 	}
+
+	@media only screen and (max-width:320px){
+		main img{
+			display: grid;
+			grid-template-columns: 1fr;
+
+			width: 100%;
+			height: 80%;
+
+
+		}
+	}
+
+
+
 
 /****************/
 /* FOOTER */
