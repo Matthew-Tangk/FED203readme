@@ -286,13 +286,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/responsive.png" width="375px" alt="top">
+  <img src="./readme-images/responsive.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="jammer.png" width="375px" alt="bummer">
+  <img src="./readme-images/jammer.png" width="375px" alt="bummer">
 </details>
 
 
