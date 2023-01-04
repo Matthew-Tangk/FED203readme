@@ -171,7 +171,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -Alle elementen staan nu op volgorde op de website en keurig in de HTML
   -De basis lay-out is gelegde met CSS
 
-  Dit ging lastig:
+  ### Dit ging lastig:
   -Hamburger menu begreep ik niet en wou niet meewerken.
   -Grid weigerde te luisteren.
   
@@ -286,7 +286,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="./readme-images/responsive.png" width="375px" alt="top">
+  <img src="./readme-images/repsonsive.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
