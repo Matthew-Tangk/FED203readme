@@ -215,12 +215,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Vanwege de simplistische lay-out is de site wel te gebruiken met eventuele motorische beperkingen.
   - Site is nog steeds te gebruiken met visuele beperkingen behalve met blurred vision. Tekst in buttons zijn lastig te lezen.
 
-  (VERBETERD)
+  ### (VERBETERD)
   -Op mijn eigen site tabt hij de lijst met items wel van links naar rechts i.p.v boven naar beneden zoals op de echte site.
   -Op mijn site is de tekst groter gemaakt om het beter leesbaar te maken.
   -Lay-out is lichtelijk verbeterd. Alle items staan even ver van elkaar af zowel horizontaal als verticaal.
 
-  (NIEUW)
+  ### (NIEUW)
   -Voice over leest twee keer dezelfde informatie. Alt moet aangepast worden zodat artikel naam niet achter elkaar herhaalt wordt.
   -Tijdens tabben soms onduidelijk waar je op staat. Achtergrond in focusstate wordt toegepast.
   
