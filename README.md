@@ -84,7 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Met tabben in winkelwagen prijs niet zichtbaar
 
   
-  Tabben werkt over het algemeen naar behoren. Alleen is het nu niet te zien waar de focus zich bevind als de caroussel buttons worden geselecteerd. Ook gaat tabt hij de colom verticaal i.p.v de rij met opties horizontaal af te gaan. Pas grid aan zodat er van links naar rechts gelezen wordt. Vergroot border van focus state en geef een scherpere kleur als je door de caroussel tabt.
+  Tabben werkt over het algemeen naar behoren. Alleen is het nu niet te zien waar de focus zich bevind als de caroussel buttons worden geselecteerd. Ook tabt hij de colom verticaal i.p.v de rij met opties horizontaal af te gaan. Pas grid aan zodat er van links naar rechts gelezen wordt. Vergroot border van focus state en geef een scherpere kleur als je door de caroussel tabt.
 
   #### Motoriek (shocks, elastiekjes)
   
@@ -127,12 +127,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Wat goed ging:
+  ### Wat goed ging:
   -Het opstellen van de HTML
   -Het verbinden met de CSS
   -Het verbinden met de JS
 
-  Wat ging lastig:
+  ### Wat ging lastig:
   -Al het andere
   -Images importeren in HD
   -Files de juiste naam geven zodat ze daadwerkelijk op je website verschijnen
@@ -143,7 +143,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Ryan      | Charity         | Quinty  | Matthew       
   | ---            | ---                | ---          
-  | dit bespreken  | en dit             | -Moet je ook alle animaties overnemen?         
+  | dit bespreken  | en dit             | -Moet je ook alle animaties      overnemen?         
   | en dat ook nog | dit als er tijd is | -Wordt jouw site naast de echte site gezet en vergeleken
   | ...            | ...                |           
 
@@ -182,10 +182,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | Ryan     | Quinty         | Charity   | Matthew       
-  | ---            | ---                | ---          
-  | dit bespreken  | en dit             |  Hoe kan ik individuele elementen selecteren in css zonder classes? 
-  | en dat ook nog | dit als er tijd is |  Wat doe ik verkeerd bij mijn hamburger menu?
-  | ...            | ...                |  
+  | ---      |                |           |        
+  |          |                |           |"Hoe kan ik individuele elementen selecteren in css zonder     classes?"., "Wat doe ik verkeerd bij mijn hamburger menu?". 
+  |          |                |           |
+                                          
 
 
   ### Verslag van meeting
@@ -209,29 +209,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  (OUD)
+  - Een screenreader is bijna niet te gebruiken op de echte website van professor E.
+  - Tabben werkt heel primitief en laat ook key details eruit.
+  - Vanwege de simplistische lay-out is de site wel te gebruiken met eventuele motorische beperkingen.
+  - Site is nog steeds te gebruiken met visuele beperkingen behalve met blurred vision. Tekst in buttons zijn lastig te lezen.
+
+  (VERBETERD)
+  -Op mijn eigen site tabt hij de lijst met items wel van links naar rechts i.p.v boven naar beneden zoals op de echte site.
+  -Op mijn site is de tekst groter gemaakt om het beter leesbaar te maken.
+  -Lay-out is lichtelijk verbeterd. Alle items staan even ver van elkaar af zowel horizontaal als verticaal.
+
+  (NIEUW)
+  -Voice over leest twee keer dezelfde informatie. Alt moet aangepast worden zodat artikel naam niet achter elkaar herhaalt wordt.
+  -Tijdens tabben soms onduidelijk waar je op staat. Achtergrond in focusstate wordt toegepast.
+  
+
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De screenreader leest dat de afbeelding een link is, in welke categorie het artikel valt, de naam van het product en hoeveel het kost.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Vanwege de simpele lay-out is de site makkelijk bestuurbaar met muis en keyboard. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij motorieke beeperkingen wordt het navigeren vab de site moeilijker. Het wordt lastiger ergens op te klikken via de muis en je hebt minder controle over hoe vaak je klikt via het toetsenbord.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Oplossing is om tabben simpel en makkelijk te houden zodat je dat als backup kan gebruiken. Hier bestaat nog steeds kans dat je te vaak drukt maar werkt beter dan met muis navigeren.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Visueel dezelfde stijl aangehouden als de echte site. Tekst iets groter gemaakt i.v.m leesbaarheid. Zwarte tekst op wite achtergrond is goed zichtbaar. Afbeeldingen kunnen wazig zijn vanwege al het zwart maar dit is nu eenmaal de kleding, kan niet veel aan gedaan worden behalve afbeeldingen vergroten.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -242,7 +252,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3e voortgang</summary>
+  <summary>uitwerken voor 3e voortgang (N.V.T.)</summary>
 
   Ik was ziek deze week en dus ook niet aanwezig
 
@@ -253,20 +263,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Ryan           | Quinty 2           | Charity 3    |                  |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  
 
 </details>
 
@@ -284,13 +290,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe ik dankzij het gebruik van media queries, en display grid mijn site responsive kan maken. Het duurde even om de goeie proporties te krijgen en afbeeldingen centraal te zetten afhankelijk van schermgrootte maar ik ben trots op het eindresultaat.
 
   <img src="./readme-images/repsonsive.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Op de officieele website staan de naam/prijs en mini afbeeldingen van een product naast elkaar. Dit lukte niet bij mij i.v.m responsiveness en dus koos ik ervoor om deze details onder elkaar te zetten.
 
   <img src="./readme-images/jammer.png" width="375px" alt="bummer">
 </details>
