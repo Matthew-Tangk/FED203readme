@@ -77,10 +77,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  met tabben heb je drie links op categorie scherm: 
-    -Afbeelding
-    -Naam
-    -Prijs
+  met tabben heb je drie links op categorie scherm: afbeelding, naam en prijs
   Met tabben in winkelwagen prijs niet zichtbaar
 
   
@@ -96,7 +93,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Met de brillen was de site nog steeds goed leesbaar. De enige kleuren die gebruikt worden door de site zijn zwart en wit. Alleen als je het scherm op blurred zet wordt het lastig. Tekst is dan soms niet te onderscheiden van de achtergrond.
 
-  Dit is makkelijk aan te passen door de kleur van de tekst te veranderen.
+  Dit is makkelijk aan te passen door de grote van de tekst te veranderen.
 
 </details>
 
@@ -127,25 +124,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  ### Wat goed ging:
-  -Het opstellen van de HTML
-  -Het verbinden met de CSS
-  -Het verbinden met de JS
+  ### Wat goed ging
+  -Het opstellen van de HTML.
+  -Het verbinden met de CSS.
+  -Het verbinden met de JS.
 
-  ### Wat ging lastig:
-  -Al het andere
-  -Images importeren in HD
-  -Files de juiste naam geven zodat ze daadwerkelijk op je website verschijnen
+  ### Wat ging lastig
+  -Al het andere.
+  -Images importeren in HD.
+  -Files de juiste naam geven zodat ze daadwerkelijk op je website verschijnen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | Ryan      | Charity         | Quinty  | Matthew       
-  | ---            | ---                | ---          
-  | dit bespreken  | en dit             | -Moet je ook alle animaties      overnemen?         
-  | en dat ook nog | dit als er tijd is | -Wordt jouw site naast de echte site gezet en vergeleken
-  | ...            | ...                |           
+  | ---            | ---        | ---     | ---          
+  | dit bespreken  | en dit     | ..      | -Moet je ook alle animaties overnemen?         
+  | en dat ook nog | dit als e  | ..      | -Wordt jouw site naast de echte site gezet en vergeleken
+  | ...            | ...        | ..      |           
 
 
   ### Verslag van meeting
@@ -167,13 +164,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  Dit ging goed:
-  -Alle elementen staan nu op volgorde op de website en keurig in de HTML
-  -De basis lay-out is gelegde met CSS
+  Dit ging goed
+  -Alle elementen staan nu op volgorde op de website en keurig in de HTML.
+  -De basis lay-out is gelegde met CSS.
+  -Afbeeldingen zijn in HD door het veranderen van png naar webp.
+  -Elementen zijn nu beter leesbaar.
 
-  ### Dit ging lastig:
+  ### Dit ging lastig
   -Hamburger menu begreep ik niet en wou niet meewerken.
-  -Grid weigerde te luisteren.
+  -Geexpirimenteerd met grid maar lukte niet om responsive te maken.
   
 
 
@@ -182,9 +181,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | Ryan     | Quinty         | Charity   | Matthew       
-  | ---      |                |           |        
-  |          |                |           |"Hoe kan ik individuele elementen selecteren in css zonder     classes?"., "Wat doe ik verkeerd bij mijn hamburger menu?". 
-  |          |                |           |
+ "Hoe kan ik individuele elementen selecteren in css zonder classes?", "Wat doe ik verkeerd bij mijn hamburger menu?". 
+
                                           
 
 
@@ -192,7 +190,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Breng je hamburgermenu button buiten de nav.
-  - Gebruik direct-child selectors and attribute selectors
+  - Gebruik direct-child selectors and attribute selectors.
   
 
 
@@ -219,6 +217,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -Op mijn eigen site tabt hij de lijst met items wel van links naar rechts i.p.v boven naar beneden zoals op de echte site.
   -Op mijn site is de tekst groter gemaakt om het beter leesbaar te maken.
   -Lay-out is lichtelijk verbeterd. Alle items staan even ver van elkaar af zowel horizontaal als verticaal.
+  
 
   ### (NIEUW)
   -Voice over leest twee keer dezelfde informatie. Alt moet aangepast worden zodat artikel naam niet achter elkaar herhaalt wordt.
@@ -300,6 +299,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="./readme-images/jammer.png" width="375px" alt="bummer">
 </details>
+  
+  ### feedback na eindgesprek
+  
+ -ReadMe compleet invullen.
+ -Voeg hover en focus states toe.
+ -Heading levels zijn niet correct, pas deze aan.
+  
+
 
 
 
@@ -312,8 +319,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. CSS tricks: a complete guide to flexbox, https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  2. Grid garden: a game for learning css grid, https://www.google.com/search?q=grid+garden&oq=grid+garden&aqs=chrome..69i57j0i512l9.1865j0j7&sourceid=chrome&ie=UTF-8
+  3. Flexbox froggy: a game for learning css flexbox, https://flexboxfroggy.com/
+  4. ChatGPT, open AI software die ik heb gebruikt om verschillende stukjes code uit te leggen (voornamelijk javascript voor hamburger menu).
+  https://chat.openai.com/chat
+  5. Professor E, https://professor-e.com/
+  6. Web Dev Tutorials: JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript, https://www.youtube.com/watch?v=flItyHiDm7E&t=136s&ab_channel=WebDevTutorials
+  
+
 
 </details>
