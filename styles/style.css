@@ -162,7 +162,7 @@ main {
 	font-family: 'Lora', serif;
 }
 
-main h1 {
+h2:first-of-type {
 	font-family: 'Lora', serif;
 	font-size: small;
 	display: flex;
