@@ -175,6 +175,10 @@ h2:first-of-type {
 	padding: 5em;
 }
 
+a:focus{
+    background-color: rgb(166, 222, 255);
+}
+
 main a {
 	
 	text-decoration: none;
