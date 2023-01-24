@@ -154,6 +154,9 @@ section:first-of-type img {
 	height: auto;
 }
 
+section:first-of-type img:hover {
+	border: none;
+}
 /****************/
 /* MAIN EN GRID*/
 /****************/
