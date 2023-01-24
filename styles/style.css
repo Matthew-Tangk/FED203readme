@@ -192,6 +192,11 @@ main img {
 	height: 30em;
 }
 
+main img:hover {
+    border: 5px solid rgb(92, 184, 237);
+     
+}
+
 
 section{
 	display: grid;
