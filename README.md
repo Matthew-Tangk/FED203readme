@@ -190,7 +190,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Breng je hamburgermenu button buiten de nav.
-  - Gebruik direct-child selectors and attribute selectors.
+  - Gebruik direct-child selectors en attribute selectors.
   
 
 
@@ -220,8 +220,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   ### (NIEUW)
-  -Voice over leest twee keer dezelfde informatie. Alt moet aangepast worden zodat artikel naam niet achter elkaar herhaalt wordt.
-  -Tijdens tabben soms onduidelijk waar je op staat. Achtergrond in focusstate wordt toegepast.
+  -Voice over leest twee keer dezelfde informatie. Alt moet aangepast worden zodat artikel naam niet achter elkaar herhaalt wordt. (is verbeterd)
+  -Tijdens tabben soms onduidelijk waar je op staat. Achtergrond in focusstate wordt toegepast. (is verbeterd)
   
 
 
@@ -326,6 +326,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://chat.openai.com/chat
   5. Professor E, https://professor-e.com/
   6. Web Dev Tutorials: JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript, https://www.youtube.com/watch?v=flItyHiDm7E&t=136s&ab_channel=WebDevTutorials
+  7. Web Dev Simplified: Learn CSS Media Query In 7 Minutes, https://www.youtube.com/watch?v=yU7jJ3NbPdA&t=103s&ab_channel=WebDevSimplified
+
   
 
 
