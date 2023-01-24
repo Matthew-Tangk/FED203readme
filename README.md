@@ -234,7 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Bij motorieke beeperkingen wordt het navigeren vab de site moeilijker. Het wordt lastiger ergens op te klikken via de muis en je hebt minder controle over hoe vaak je klikt via het toetsenbord.
+  Bij motorieke beeperkingen wordt het navigeren van de site moeilijker. Het wordt lastiger ergens op te klikken via de muis en je hebt minder controle over hoe vaak je klikt via het toetsenbord.
 
   Oplossing is om tabben simpel en makkelijk te houden zodat je dat als backup kan gebruiken. Hier bestaat nog steeds kans dat je te vaak drukt maar werkt beter dan met muis navigeren.
 
